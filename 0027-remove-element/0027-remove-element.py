@@ -5,12 +5,18 @@ class Solution(object):
         :type val: int
         :rtype: int
         """
-        sol =[]
-        for i in range(len(nums)):
-            if nums[i] != val:
-                sol.append(nums[i])
-            
-        for i in range(len(sol)):
-            nums[i] = sol[i]
-
-        return len(sol)
+        j = len(nums) - 1
+        while j > -1 and nums[j]==val:
+                j -= 1
+        for i in range(j):
+            while j > -1 and nums[j]==val:
+                j -= 1
+            if nums[i] == val:
+                if j <= i:
+                    break
+                s = nums[i]
+                nums[i] = nums[j]
+                nums[j] = s
+                j-=1
+        print(j+1)
+        return j+1
