@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/JKhamzaev/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/JKhamzaev/leetcode/tree/master/0027-remove-element) |
+| [0792-binary-search](https://github.com/JKhamzaev/leetcode/tree/master/0792-binary-search) |
 | [1635-number-of-good-pairs](https://github.com/JKhamzaev/leetcode/tree/master/1635-number-of-good-pairs) |
 | [2058-concatenation-of-array](https://github.com/JKhamzaev/leetcode/tree/master/2058-concatenation-of-array) |
 | [3747-maximum-difference-between-adjacent-elements-in-a-circular-array](https://github.com/JKhamzaev/leetcode/tree/master/3747-maximum-difference-between-adjacent-elements-in-a-circular-array) |
@@ -52,4 +53,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0206-reverse-linked-list](https://github.com/JKhamzaev/leetcode/tree/master/0206-reverse-linked-list) |
+## Binary Search
+|  |
+| ------- |
+| [0792-binary-search](https://github.com/JKhamzaev/leetcode/tree/master/0792-binary-search) |
 <!---LeetCode Topics End-->
