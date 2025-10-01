@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/JKhamzaev/leetcode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/JKhamzaev/leetcode/tree/master/0027-remove-element) |
+| [0074-search-a-2d-matrix](https://github.com/JKhamzaev/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0792-binary-search](https://github.com/JKhamzaev/leetcode/tree/master/0792-binary-search) |
 | [1635-number-of-good-pairs](https://github.com/JKhamzaev/leetcode/tree/master/1635-number-of-good-pairs) |
 | [2058-concatenation-of-array](https://github.com/JKhamzaev/leetcode/tree/master/2058-concatenation-of-array) |
@@ -56,5 +57,10 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Search
 |  |
 | ------- |
+| [0074-search-a-2d-matrix](https://github.com/JKhamzaev/leetcode/tree/master/0074-search-a-2d-matrix) |
 | [0792-binary-search](https://github.com/JKhamzaev/leetcode/tree/master/0792-binary-search) |
+## Matrix
+|  |
+| ------- |
+| [0074-search-a-2d-matrix](https://github.com/JKhamzaev/leetcode/tree/master/0074-search-a-2d-matrix) |
 <!---LeetCode Topics End-->
