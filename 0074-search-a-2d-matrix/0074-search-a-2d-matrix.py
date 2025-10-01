@@ -12,7 +12,6 @@ class Solution:
                 i = (left + right)//2
                 if target == arr[i]:
                     return True
-
                 elif target < arr[i]:
                     right = i - 1
                 elif target > arr[i]:
@@ -20,13 +19,19 @@ class Solution:
             
             return False
 
-        for i in range(rows):
+        l = 0
+        r = rows-1
+
+        while l<=r:
+            i = (l + r)//2
             if matrix[i][0]<=target<=matrix[i][columns-1]:
                 answer = search(matrix[i], target)
                 return answer
-            else:
-                continue
-            
+            elif target < matrix[i][0]:
+                r = i - 1
+            elif target > matrix[i][columns-1]:
+                l = i + 1
+        
         return False
 
             
