@@ -21,10 +21,7 @@ class Solution:
             return False
 
         for i in range(rows):
-            if target==matrix[i][columns-1]:
-                print(matrix[i][0])
-                return True
-            elif matrix[i][0]<=target<=matrix[i][columns-1]:
+            if matrix[i][0]<=target<=matrix[i][columns-1]:
                 answer = search(matrix[i], target)
                 return answer
             else:
