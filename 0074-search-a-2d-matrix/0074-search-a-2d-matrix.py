@@ -20,12 +20,6 @@ class Solution:
             
             return False
 
-        if columns==1:
-            if target==matrix[0][0]:
-                return True
-            else:
-                False
-
         for i in range(rows):
             if target==matrix[i][columns-1]:
                 print(matrix[i][0])
