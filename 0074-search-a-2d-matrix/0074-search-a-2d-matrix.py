@@ -24,10 +24,10 @@ class Solution:
             if target==matrix[i][columns-1]:
                 print(matrix[i][0])
                 return True
-            elif target<matrix[i][columns-1]:
+            elif matrix[i][0]<=target<=matrix[i][columns-1]:
                 answer = search(matrix[i], target)
                 return answer
-            elif target>matrix[i][columns-1]:
+            else:
                 continue
             
         return False
